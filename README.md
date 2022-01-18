@@ -60,12 +60,12 @@ This code is copyrighted.
 But it can be used under the terms of the [MIT license](./LICENSE) for your own purposes.
 It builds upon the following third party modules:
 
-- [keyring][keyring] for the interaction with the operating system's keyring, which is MIT licensed.
+- [requests][requests], a simple HTTP client for Python, which is made available under the terms of the [Apache Software License][requests-license].
 
 Open source software rocks 🎸!
 
 [hakuna]: https://hakuna.ch
 [hakuna-api]: https://www.hakuna.ch/docs
 [python]: https://www.python.org
-[keyring]: https://github.com/jaraco/keyring#readme
-[swig-installation]: http://www.swig.org/Doc4.0/Preface.html#Preface_installation
+[requests]: https://docs.python-requests.org/en/latest/
+[requests-license]: https://github.com/psf/requests/blob/24dfbfde552bb8ce48eec415714cbe793cfa95bd/LICENSE
