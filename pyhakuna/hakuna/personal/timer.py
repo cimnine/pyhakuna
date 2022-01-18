@@ -10,7 +10,7 @@ class Timer:
     self._hakuna = h
 
   def current(self):
-    return self._hakuna.get(TIMER_PATH).json()
+    return self._hakuna.get(TIMER_PATH)
 
   def start(self,
             task_id: int,

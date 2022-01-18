@@ -8,4 +8,4 @@ class Company:
     self._hakuna = h
 
   def get(self):
-    return self._hakuna.get(COMPANY_PATH).json()
+    return self._hakuna.get(COMPANY_PATH)

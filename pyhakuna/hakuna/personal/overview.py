@@ -8,4 +8,4 @@ class Overview:
     self._hakuna = h
 
   def get(self):
-    return self._hakuna.get(OVERVIEW_PATH).json()
+    return self._hakuna.get(OVERVIEW_PATH)

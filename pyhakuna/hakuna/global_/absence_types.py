@@ -8,4 +8,4 @@ class AbsenceTypes:
     self._hakuna = h
 
   def list(self):
-    return self._hakuna.get(ABSENCE_TYPES_PATH).json()
+    return self._hakuna.get(ABSENCE_TYPES_PATH)

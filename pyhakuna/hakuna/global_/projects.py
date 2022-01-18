@@ -8,4 +8,4 @@ class Projects:
     self._hakuna = h
 
   def list(self):
-    return self._hakuna.get(PROJECTS_PATH).json()
+    return self._hakuna.get(PROJECTS_PATH)

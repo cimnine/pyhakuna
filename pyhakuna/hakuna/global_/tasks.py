@@ -8,4 +8,4 @@ class Tasks:
     self._hakuna = h
 
   def list(self):
-    return self._hakuna.get(TASKS_PATH).json()
+    return self._hakuna.get(TASKS_PATH)

@@ -8,7 +8,7 @@ class Users:
     self._hakuna = h
 
   def list(self):
-    return self._hakuna.get(USERS_PATH).json()
+    return self._hakuna.get(USERS_PATH)
 
   def me(self):
-    return self._hakuna.get(f"{USERS_PATH}/me").json()
+    return self._hakuna.get(f"{USERS_PATH}/me")
