@@ -19,6 +19,17 @@ pip3 install -U pyhakuna
 
 Use the same command to update to a new version.
 
+## Usage
+
+```python
+from pyhakuna import Hakuna
+
+h = Hakuna("instance-name", "api-token")
+u = h.personal().users().me()
+```
+
+The API tries to follow the structure of the [Hakuna API documentation][hakuna-api].
+
 ## Development
 
 ```bash
