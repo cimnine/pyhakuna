@@ -9,7 +9,7 @@
 
 ## Requirements
 
-This tool requires [Python 3][python] and an operating system that is supported by [the `keyring` Python module][keyring].
+This tool requires [Python 3][python].
 
 ## Installation
 
