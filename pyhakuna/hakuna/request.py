@@ -14,7 +14,7 @@ class Request:
   def _url(self, path: str):
     return urljoin(f"https://{self.instance_name}.hakuna.ch/", path)
 
-  def get(self, path: str, params: Optional[dict]):
+  def get(self, path: str, params: Optional[dict] = None):
     return requests.get(self._url(path), params=params, auth=self._auth).json()
 
   def post(self, path: str, data: dict):
